@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">popupwindowdemo</string>
+    <string name="popup_text">This is a Popup window</string>
+</resources>
