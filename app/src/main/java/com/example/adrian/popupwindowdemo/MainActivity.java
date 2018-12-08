@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 //create the new layout for the window
                 ViewGroup container = (ViewGroup) layoutInflater.inflate(R.layout.popwindow, null);
 
-                //create window, pass layout, width, height and if you can close the window if you touch oustside
+                //create window, pass layout, width, height and if you can close the window if you touch outside
                 popupWindow = new PopupWindow(container, 400, 400, true);
                 //places the window at the specific location and gravity
                 popupWindow.showAtLocation(relativeLayout, Gravity.NO_GRAVITY,500,500);
